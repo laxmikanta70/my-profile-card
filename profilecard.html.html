@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Profile Card</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <style>
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            background-color: #f0f2f5;
+            margin: 0;
+            font-family: Arial, sans-serif;
+        }
+        .profile-card {
+            background: #fff;
+            width: 300px;
+            border-radius: 15px;
+            box-shadow: 0 10px 20px rgba(0,0,0,0.1);
+            
+            text-align: center;
+        }
+        .profile-card .header {
+            background: #007bff;
+            padding: 50px 20px;
+        }
+        .profile-card .header img {
+            width: 100px;
+            height: 100px;
+            border-radius: 50%;
+            border: 5px solid #fff;
+            margin-bottom: 10px;
+        }
+        .profile-card .header h2 {
+            color: #fff;
+            margin: 0;
+        }
+        .profile-card .header p {
+            color: #e1e1e1;
+            margin: 5px 0 20px;
+        }
+        .profile-card .body {
+            padding: 20px;
+        }
+        .profile-card .body .social-icons {
+            margin-bottom: 20px;
+        }
+        .profile-card .body .social-icons a {
+            margin: 0 10px;
+            color: #007bff;
+            font-size: 20px;
+            text-decoration: none;
+        }
+        .profile-card .body .buttons {
+            margin-bottom: 20px;
+        }
+        .profile-card .body .buttons button {
+            border: none;
+            padding: 10px 20px;
+            border-radius: 50px;
+            margin: 0 10px;
+            cursor: pointer;
+            color: #fff;
+        }
+        .profile-card .body .buttons .subscribe {
+            background: #007bff;
+        }
+        .profile-card .body .buttons .message {
+            background: #28a745;
+        }
+        .profile-card .footer {
+            background: #f9f9f9;
+            display: flex;
+            justify-content: space-around;
+            padding: 15px 0;
+        }
+        .profile-card .footer div {
+            text-align: center;
+        }
+        .profile-card .footer div i {
+            display: block;
+            font-size: 18px;
+            margin-bottom:5px;
+            color:#333;
+        }
+        .profile-card .footer div span {
+            display: block;
+            font-size: 18px;
+            font-weight: bold;
+        }
+        .profile-card .footer div small {
+            color: #999;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="profile-card">
+        <div class="header">
+            <a href="https://ibb.co/fkN2xQD">
+                <img src="https://i.ibb.co/T40kgrW/Whats-App-Image-2024-08-01-at-10-11-49-f87e1c2e.jpg" alt="Profile Photo">
+            </a>
+            <h2>Laxmikanta Routray</h2>
+            <p>Student</p>
+        </div>
+        <div class="body">
+            <div class="social-icons">
+                <a href="https://github.com/laxmikanta70" target="_blank"><i class="fab fa-github"></i></a>
+                <a href="https://www.linkedin.com/in/Laxmikanta Routray" target="_blank"><i class="fab fa-linkedin"></i></a>
+                <a href="https://twitter.com/laxmikanta70" target="_blank"><i class="fab fa-twitter"></i></a>
+            </div>
+            <div class="buttons">
+                <button class="subscribe">Subscribe</button>
+                <button class="message">Message</button>
+            </div>
+        </div>
+        <div class="footer">
+            <div>
+            <i class="fas fa-users"></i>
+                <span>200</span>
+                <small>Followers</small>
+            </div>
+            <div>
+            <i class="fas fa-comment"></i>
+                <span>120</span>
+                <small>Comments</small>
+            </div>
+            <div>
+            <i class="fas fa-share"></i>
+                <span>60</span>
+                <small>Shares</small>
+            </div>
+            <div>
+            <i class="fas fa-heart"></i>
+                <span>150</span>
+                <small>Likes</small>
+            </div>
+        </div>
+    </div>
+
+</body>
+</html>
